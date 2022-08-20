@@ -11,7 +11,7 @@ timeout /t 15 /nobreak
 set /a a=%a%+1
 if "%a%"=="5" (
     echo done!
-    start https://cdn.krnl.ca/getkey.php
+    start https://cdn.krnl.place/getkey.php
     pause
     exit
 )
